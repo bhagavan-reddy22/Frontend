@@ -1,0 +1,122 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+/* Set a background color and font family */
+body {
+    background-image: url('image3.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header and navigation */
+header { 
+    background-color: rgba(56, 56, 61, 0.944);
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+#hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    
+}
+
+#hero p {
+    font-size: 18px;
+}
+
+/* Style property listings */
+#property-listings {
+    text-align: center;
+    padding: 20px;
+}
+
+.property {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add this CSS to your property.html */
+
+/* Center the images */
+.property img {
+    max: width 100px;%;
+    display: block; /* Center the images */
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Change the font color */
+#property-details {
+    color: #333; /* Change to your desired font color */
+}
+
+#contact-agent {
+    color: #333; /* Change to your desired font color */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+@media (max-width: 768px) {
+    header nav ul {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    header nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+header img {
+    float: left; 
+    width: 100px; 
+    height: 100px;
+    border-radius: 20%; 
+    margin-right: 0px; 
+}
+
